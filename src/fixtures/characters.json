@@ -1,0 +1,42 @@
+[
+  {
+    "id": 0,
+    "name": "Saktaar",
+    "url": "/assets/character_saktaar.png"
+  },
+  {
+    "id": 1,
+    "name": "Olga",
+    "url": "/assets/character_olga.png"
+  },
+  {
+    "id": 2,
+    "name": "Falgarth",
+    "url": "/assets/character_falgarth.png"
+  },
+  {
+    "id": 3,
+    "name": "Tasha",
+    "url": "/assets/character_tasha.png"
+  },
+  {
+    "id": 4,
+    "name": "Ulrick",
+    "url": "/assets/character_ulrick.png"
+  },
+  {
+    "id": 5,
+    "name": "Drale",
+    "url": "/assets/character_drale.png"
+  },
+  {
+    "id": 6,
+    "name": "Desmond",
+    "url": "/assets/character_desmond.png"
+  },
+  {
+    "id": 7,
+    "name": "Alan de Calchester",
+    "url": "/assets/character_alan_de_calchester.png"
+  }
+]
