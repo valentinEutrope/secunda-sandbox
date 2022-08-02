@@ -1,0 +1,19 @@
+.fighting-grid {
+  display: flex;
+
+  &__slots {
+    display: grid;
+    gap: 0.5rem;
+    grid-template-columns: repeat(3, 3fr);
+  }
+}
+
+.slot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #727272;
+  background-color: #ececec;
+  width: 16rem;
+  height: 19.5rem;
+}

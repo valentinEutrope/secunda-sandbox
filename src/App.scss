@@ -1,0 +1,16 @@
+.app {
+  display: flex;
+
+  > div {
+    margin: 1rem;
+  }
+
+  .character-section {
+    flex: 0.3;
+    display: flex;
+  }
+
+  .fighting-grid-section {
+    flex: 0.7;
+  }
+}
