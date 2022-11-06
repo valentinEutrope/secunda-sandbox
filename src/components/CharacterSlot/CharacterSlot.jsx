@@ -1,7 +1,5 @@
 import React from "react";
 
-import "./CharacterSlot.scss";
-
 const CharacterSlot = ({ character, setCharacterModalIsOpen }) => {
   return (
     <div

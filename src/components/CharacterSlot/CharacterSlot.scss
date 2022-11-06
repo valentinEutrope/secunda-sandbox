@@ -4,10 +4,11 @@
   width: 16.5rem;
   height: 26rem;
   cursor: pointer;
-  transition: transform 300ms ease;
+  box-shadow: 0px 0 0px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 300ms ease;
 
   &:hover {
-    transform: scale(1.05);
+    box-shadow: 3px 6px 8px rgba(0, 0, 0, 0.5);
   }
 
   img {

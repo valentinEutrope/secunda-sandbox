@@ -1,0 +1,12 @@
+.hand-cards {
+  display: flex;
+  justify-content: center;
+  margin: 1rem 0;
+
+  &__card {
+    border: 1px solid #68566b;
+    background-color: #e6d6e9;
+    width: 16rem;
+    height: 19.5rem;
+  }
+}

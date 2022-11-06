@@ -1,33 +1,37 @@
 import React from "react";
-
-import "./FightingGrid.scss";
+import FightingCards from "../../fixtures/fightingCards.json";
 
 const Slot = ({ slot }) => {
+  const card = FightingCards.find(
+    (fightingCard) => fightingCard.id === slot.cardId
+  );
+
   return (
     <div className="slot">
-      <div className="slot__card">slot {slot.position}</div>
+      <div className="slot__card">
+        {card ? (
+          <>
+            <div>Nom: {card.name}</div>
+            <div>Type: {card.type}</div>
+            <div>DP: {card.dp}</div>
+            <div>DM: {card.dm}</div>
+            <div>Cible: {card.target}</div>
+            <div>Description: {card.target}</div>
+          </>
+        ) : (
+          `slot ${slot.position}`
+        )}
+      </div>
     </div>
   );
 };
 
-const FightingGrid = () => {
-  const [slots, setSlots] = React.useState([
-    { position: 0, card: "" },
-    { position: 1, card: "" },
-    { position: 2, card: "" },
-    { position: 3, card: "" },
-    { position: 4, card: "" },
-    { position: 5, card: "" },
-    { position: 6, card: "" },
-    { position: 7, card: "" },
-    { position: 8, card: "" },
-  ]);
-
+const FightingGrid = ({ slots, setSlots }) => {
   return (
     <div className="fighting-grid">
       <div className="fighting-grid__slots">
         {slots.map((slot) => (
-          <Slot key={slot.position} slot={slot} />
+          <Slot key={`slot-${slot.position}`} slot={slot} />
         ))}
       </div>
     </div>

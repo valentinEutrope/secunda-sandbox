@@ -1,8 +1,54 @@
-{
-  "0": {
+[
+  {
+    "id": 0,
     "name": "Frappe",
     "type": "physique",
-    "classes": [],
-    "url": "/assets/frappe.png"
+    "element": "",
+    "dp": 3,
+    "dm": 0,
+    "target": "unique",
+    "effects": null,
+    "description": "",
+    "classes": [0, 1, 2],
+    "url": "/assets/fightingCards/frappe.png"
+  },
+  {
+    "id": 1,
+    "name": "Orbe magique",
+    "type": "magique",
+    "element": "",
+    "dp": 0,
+    "dm": 3,
+    "target": "unique",
+    "effects": null,
+    "description": "",
+    "classes": [3, 4],
+    "url": "/assets/fightingCards/orbe_magique.png"
+  },
+  {
+    "id": 2,
+    "name": "Boule de feu",
+    "type": "magique",
+    "element": "fire",
+    "dp": 0,
+    "dm": 7,
+    "target": "adjacent",
+    "effects": [{ "adjacent": "2DM" }],
+    "description": "",
+    "classes": [3, 4],
+    "url": "/assets/fightingCards/boule_de_feu.png"
+  },
+  {
+    "id": 3,
+    "name": "Soin",
+    "type": "magique",
+    "element": "",
+    "dp": 0,
+    "dm": 0,
+    "target": "unique",
+    "effects": [{ "simple_heal": 5 }],
+    "description": "Soigne une cible de 5PV",
+    "classes": [3, 4],
+    "url": "/assets/fightingCards/soin.png"
   }
-}
+]

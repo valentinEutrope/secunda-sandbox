@@ -1,0 +1,22 @@
+[
+  {
+    "id": 0,
+    "name": "Guerrier"
+  },
+  {
+    "id": 1,
+    "name": "Paladin"
+  },
+  {
+    "id": 2,
+    "name": "Assassin"
+  },
+  {
+    "id": 3,
+    "name": "Druide"
+  },
+  {
+    "id": 4,
+    "name": "Mage"
+  }
+]

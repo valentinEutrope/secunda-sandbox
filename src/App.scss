@@ -1,7 +1,11 @@
 .app {
   display: flex;
+  flex-direction: column;
 
-  > div {
+  .section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     margin: 1rem;
   }
 
